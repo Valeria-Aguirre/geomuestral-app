@@ -1,0 +1,151 @@
+---
+title: "GeoMuestral"
+format: 
+  dashboard:
+    theme: flatly
+    orientation: columns
+    nav-buttons:
+      - icon: github
+        href: https://github.com/Valeria-Aguirre/geomuestral-app
+server: shiny
+---
+
+## Cargar librerías
+```{r}
+#| context: setup
+library(shiny)
+library(leaflet)
+library(dplyr)
+library(bslib)
+```
+
+
+# Acerca de
+
+**Qué es GeoMuestral**
+Descripción general de la plataforma, su objetivo y el rol de los datos censales como insumo.
+
+**Flujo de trabajo**
+Paso a paso desde la definición del universo hasta el cálculo, visualización y descarga.
+
+
+# Diseño Muestral
+
+## Column {.tabset}
+
+### Mapa interactivo
+Mapa monocromático con las unidades muestrales seleccionadas.
+
+### Síntesis y tabla
+Resumen narrativo de la distribución, tabla por estrato y gráfico de asignación.
+
+### Descarga Excel
+Resumen del marco muestral listo para exportar a `.xlsx`.
+
+
+# Metodología
+
+**Cálculo muestral**
+
+Fórmulas y criterios de asignación (proporcional, igualitaria, etc.).
+
+**Insumos censales**
+
+Fuente de datos georreferenciados, unidades territoriales y reglas de procesamiento.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
